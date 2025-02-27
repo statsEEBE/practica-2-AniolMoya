@@ -13,4 +13,4 @@ ypredict <- predict(mod, data.frame(x=x)) #asignar prediccio de y mitjançant la
 plot(x,y, col='blue',pch=16)#plot dels punts en blau i no buits
 lines(x, ypredict,col='red') #dibuixar linea
 R^2<- sum((ypredict-mean(y))^2)/sum((y-mean(y))^2) #Coef de determinacion (error de la recta de regresion)
-
+a
